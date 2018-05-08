@@ -15,26 +15,40 @@ Tags are arranged in alphabetical order, while in each category, orders are arra
 * [Array](https://github.com/YoujieXia/LeetCode_Solutions_in_CPP#array)
 * [Backtracking](https://github.com/YoujieXia/LeetCode_Solutions_in_CPP#backtracking)
 * [Bit Manipulation](https://github.com/YoujieXia/LeetCode_Solutions_in_CPP#bit-manipulation)
+* [Greedy](https://github.com/YoujieXia/LeetCode_Solutions_in_CPP#Greedy)
+* [Queue](https://github.com/YoujieXia/LeetCode_Solutions_in_CPP#Queue)
 
 ## Array
 
-|  Order  | Title | Solution |  Time           | Space           | Difficulty    |  Markdown    |
-|-----|---------------- | --------- | --------------- | --------------- | ------------- | ------------- |
-| 078 | Subsets | [C++](./cpp/078-subsets.cpp) | O(n * 2^n) | O(1) |  Medium | [md](./md/078-subsets.md) |
+|  Order  | Title |   Analysis    | Solution |  Time           | Space           | Difficulty    | Runtime | Beats |
+|:-----:|---------------- | :---------: | :-------------: | --------------- | :-------------: | :-------------: | :-------------: | :-------------: |
+| 078 | Subsets | [Markdown](./md/078-subsets.md) | [C++](./cpp/078-subsets.cpp) | O(n * 2^n) | O(1) |  Medium | 6 ms	| 12.97% |
+| 621 | Task Scheduler | [Markdown](./md/621-task_scheduler.md) | [C++](./cpp/621-task_scheduler.cpp) | O(n) | O(26)/O(1) |  Medium | 46 ms	| 95.31% |
 
 
 ## Backtracking
 
-|  Order  | Title | Solution |  Time           | Space           | Difficulty    |  Markdown    |
-|-----|---------------- | --------- | --------------- | --------------- | ------------- | ------------- |
-| 078 | Subsets | [C++](./cpp/078-subsets.cpp) | O(n * 2^n) | O(1) |  Medium | [md](./md/078-subsets.md) |
+|  Order  | Title |   Analysis    | Solution |  Time           | Space           | Difficulty    | Runtime | Beats |
+|:-----:|---------------- | :---------: | :-------------: | --------------- | :-------------: | :-------------: | :-------------: | :-------------: |
+| 078 | Subsets | [Markdown](./md/078-subsets.md) | [C++](./cpp/078-subsets.cpp) | O(n * 2^n) | O(1) |  Medium | 6 ms	| 12.97% |
 
 
 ## Bit Manipulation
 
-|  Order  | Title | Solution |  Time           | Space           | Difficulty    |  Markdown    |
-|-----|---------------- | --------- | --------------- | --------------- | ------------- | ------------- |
-| 078 | Subsets | [C++](./cpp/078-subsets.cpp) | O(n * 2^n) | O(1) |  Medium | [md](./md/078-subsets.md) |
+|  Order  | Title |   Analysis    | Solution |  Time           | Space           | Difficulty    | Runtime | Beats |
+|:-----:|---------------- | :---------: | :-------------: | --------------- | :-------------: | :-------------: | :-------------: | :-------------: |
+| 078 | Subsets | [Markdown](./md/078-subsets.md) | [C++](./cpp/078-subsets.cpp) | O(n * 2^n) | O(1) |  Medium | 6 ms	| 12.97% |
+
+## Greedy
+
+|  Order  | Title |   Analysis    | Solution |  Time           | Space           | Difficulty    | Runtime | Beats |
+|:-----:|---------------- | :---------: | :-------------: | --------------- | :-------------: | :-------------: | :-------------: | :-------------: |
+| 621 | Task Scheduler | [Markdown](./md/621-task_scheduler.md) | [C++](./cpp/621-task_scheduler.cpp) | O(n) | O(26)/O(1) |  Medium | 46 ms	| 95.31% |
+## Queue
+
+|  Order  | Title |   Analysis    | Solution |  Time           | Space           | Difficulty    | Runtime | Beats |
+|:-----:|---------------- | :---------: | :-------------: | --------------- | :-------------: | :-------------: | :-------------: | :-------------: |
+| 621 | Task Scheduler | [Markdown](./md/621-task_scheduler.md) | [C++](./cpp/621-task_scheduler.cpp) | O(n) | O(26)/O(1) |  Medium | 46 ms	| 95.31% |
 
 <!--### Notes: TLE & MLE
 Failed attempts are kept in the source code as documentation, which are annotated as TLE (Time Limit Exceeded) or MLE (Memory Limit Exceeded).-->
@@ -46,8 +60,8 @@ Failed attempts are kept in the source code as documentation, which are annotate
 
 
 ## To Do
-- [ ] add corresponding `.cpp` files
-- [ ] add links to each problem page
+- [x] add corresponding `.cpp` files
+- [x] add links to each problem page
 
 
 ## License

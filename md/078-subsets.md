@@ -49,10 +49,9 @@ public:
 
 ## Complexity
 |  Time  | Space  |
-|:-----: | :-----:|
+| ----- | -----|
 | O(n * 2^n) | O(1) |
 
 
-## Thinking
 
 
