@@ -1,20 +1,16 @@
-//
-// Created by youjiexia on 18/5/8.
-//
-
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
 void select_sort(vector<int>& nums) {
-    int size = nums.size();
-    if (nums.empty() || !size)
+    int n = nums.size();
+    if (nums.empty() || !n)
         return;
 
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < n; i++) {
         int min = i;
-        for (int j = i+1; j < size; j++) {
+        for (int j = i+1; j < n; j++) {
             if (nums[j] < nums[min])
                 min = j;
         }
@@ -24,21 +20,28 @@ void select_sort(vector<int>& nums) {
     }
 }
 
+void print_nums(const vector<int>& nums)
+{
+    int n = nums.size();
+    if (nums.empty() || !n)
+        return;
+    for (int i = 0; i < n; i++) {
+        cout << nums[i] << " ";
+    }
+    cout << endl;
+}
+
 
 int main() {
 //    vector<int> a ( {7,3,5,8,9,1,2,4,6} );
     vector<int> a = {7,3,5,8,9,1,2,4,6};
     cout << "Before sorting:" << endl;
-    for (int i = 0; i < a.size(); i++) {
-        cout << a[i] << " ";
-    }
+    print_nums(a);
 
     select_sort(a);
 
-    cout << endl <<  "After sorting:" << endl;
-    for (int i = 0; i < a.size(); i++) {
-        cout << a[i] << " ";
-    }
+    cout <<  "After sorting:" << endl;
+    print_nums(a);
 
     return 0;
 }

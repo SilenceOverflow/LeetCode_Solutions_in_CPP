@@ -5,15 +5,19 @@
 	- perform above until the last element
 - Time Complexity: O(n^2)
 - Space Complexity: O(1)
+- [Script](src/select_sort.cpp)
 
-## 
-
+## Merge Sort
+- Main idea: 
+	- 
 
 
 
 
 # Summary
 
-|  Time  | Space  |
-|:-----: | :-----:|
-| O(n * 2^n) | O(1) |
+<!-- |           | inplace? | stable? |  worst  | average |  best  |   remarks    |
+| :-----:   | :-----:  | :-----: | :-----: | :-----: | :-----:|   :-----:    |
+| Selection |    X     |         | O(n^2/2)| O(n^2/2)|O(n^2/2)| N exchanges  | -->
+
+![sorting_summary](sorting_summary.png)
