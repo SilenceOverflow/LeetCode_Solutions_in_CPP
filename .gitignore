@@ -1,5 +1,5 @@
-notes/Sorting_Algorithms/src/cmake-build-debug/
-notes/Sorting_Algorithms/src/.idea/
+notes_on_algorithms/Sorting_Algorithms/src/cmake-build-debug/
+notes_on_algorithms/Sorting_Algorithms/src/.idea/
 
 *.xml
 
@@ -17,4 +17,11 @@ notes/Sorting_Algorithms/src/.idea/
 
 *.cbp
 
-notes/Sorting_Algorithms/src/main.cpp
+notes_on_algorithms/Sorting_Algorithms/src/main.cpp
+
+interview_summary/
+
+
+
+
+notes_on_LeetCode/LeetCodeDaily.md

@@ -32,7 +32,7 @@ std::priority_queue<int, std::vector<int>, decltype(cmp)> q3(cmp);
 - vector<vector<int>> (res.begin(), res.end());
 
 ## Sorting
-- define **comparator** for **struct Interval**: 'sort(intervals.begin(), intervals.end(), **[](Interval &a, Interval &b) {return a.start < b.start;}**);'
+- define **comparator** for **struct Interval**: `sort(intervals.begin(), intervals.end(), **[](Interval &a, Interval &b) {return a.start < b.start;}**);`
 
 ## Stack
 - stack<int> s;

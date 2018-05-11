@@ -22,9 +22,9 @@ void select_sort(vector<int>& nums) {
 
 void print_nums(const vector<int>& nums)
 {
-    int n = nums.size();
-    if (nums.empty() || !n)
+    if (nums.empty() || !nums.size())
         return;
+    int n = nums.size();
     for (int i = 0; i < n; i++) {
         cout << nums[i] << " ";
     }
