@@ -86,6 +86,97 @@ The topics are arranged in alphabetical order.
 	- https://zhuanlan.zhihu.com/p/28340833
 	- https://zhuanlan.zhihu.com/p/24523433
 
+### Word Search
+- 79. Word Search [M]
+- 212. Word Search II [H]
+
+
+--------
+## Binary Search
+- 33. Search in Rotated Sorted Array [M]
+- 81. Search in Rotated Sorted Array II [M]
+- 153. Find Minimum in Rotated Sorted Array [M]
+- 154. Find Minimum in Rotated Sorted Array II [H]
+- 215. Kth Largest Element in an Array [M]
+- 230. Kth Smallest Element in a BST [M]
+- 378. Kth Smallest Element in a Sorted Matrix [M]
+- 658. Find K Closest Elements [M]
+- 744. Find Smallest Letter Greater Than Target [E]
+
+--------
+## Binary Tree/BST
+### Binary Tree Traversal
+- 144. Binary Tree Preorder Traversal [M]
+- 94. Binary Tree Inorder Traversal [M]
+- 145. Binary Tree Postorder Traversal [M]
+- 102. Binary Tree Level Order Traversal [M]  
+- 107. Binary Tree Level Order Traversal II [E] 
+- 103. Binary Tree Zigzag Level Order Traversal [M]
+- 314. Binary Tree Vertical Order Traversal [M]
+- references: 
+    - [[LeetCode] Binary Tree Inorder Traversal 二叉树的中序遍历](http://www.cnblogs.com/grandyang/p/4297300.html)
+    - [Morris Traversal方法遍历二叉树（非递归，不用栈，O(1)空间）](http://www.cnblogs.com/AnnieKim/archive/2013/06/15/morristraversal.html)
+    - [leetcode | 二叉树的前序遍历、中序遍历、后续遍历的非递归实现](https://blog.csdn.net/quzhongxin/article/details/46315251)
+    - [二叉树前序、中序、后序遍历非递归写法的透彻解析](https://blog.csdn.net/zhangxiangdavaid/article/details/37115355)
+    - [前中后序遍历](https://github.com/CyC2018/Interview-Notebook/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3.md#%E5%89%8D%E4%B8%AD%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86)
+
+### Construct Binary Tree
+- 105. Construct Binary Tree from Preorder and Inorder Traversal [M]
+- 106. Construct Binary Tree from Inorder and Postorder Traversal [M]
+
+### Iterator
+- 173. Binary Search Tree Iterator [M]
+- 281. Zigzag Iterator [M]
+- 284. Peeking Iterator [M]
+- 285. Inorder Successor in BST [M]
+
+### Longest Consecutive Sequence
+- 298. Binary Tree Longest Consecutive Sequence [M]
+- 549. Binary Tree Longest Consecutive Sequence II [M]
+- 128. Longest Consecutive Sequence (similar question) [H] 
+
+
+### 想法
+- 处理树的问题，尤其是对BST的操作，如果一开始没有想法或者只能想到brute force，不妨与几种遍历方式联系想想或者是DFS、BFS之类的
+
+--------
+## Dynamic Programming
+### Best Time to Buy and Sell Stock
+- 121. Best Time to Buy and Sell Stock [E]
+- 122. Best Time to Buy and Sell Stock II [E]
+- 123. Best Time to Buy and Sell Stock III [H]
+- 188. Best Time to Buy and Sell Stock IV [H]
+- 309. Best Time to Buy and Sell Stock with Cooldown [M]
+- 714. Best Time to Buy and Sell Stock with Transaction Fee [M]
+- references: [Most consistent ways of dealing with the series of stock problems
+](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/most-consistent-ways-of-dealing-with-the-series-of-stock-problems)
+
+### Regularization
+- 10. Regular Expression Matching [H]
+- 44. Wildcard Matching [H]
+
+--------
+## Finding Missing/Duplicate Number(s) in Vector
+- 数组中找Missing，duplicate呀核心思想就是“环”，时间复杂度O(n)：
+- Three Main Methods: +n, -nums[i], relocate elements
+- 268. Missing Number [E]
+- 442. Find All Duplicates in an Array [M]
+- 448. Find All Numbers Disappeared in an Array [E]
+- 645. Set Mismatch [E]
+- 287. Find the Duplicate Number [M]
+- 565. Array Nesting [M]
+- 41. First Missing Positive [H]
+
+--------
+## Graph
+### Course Schedule (Directed graph)
+- 207. Course Schedule [M]
+- 210. Course Schedule II [H]
+- 630. Course Schedule III [H]
+
+### Indirected graph
+- 133. Clone Graph [M]
+
 --------
 ## K Elements 
 - 347. Top K Frequent Elements  
@@ -110,4 +201,50 @@ The topics are arranged in alphabetical order.
 - 253. Meeting Rooms II 
 - 435. Non-overlapping Intervals 
 - 452. Minimum Number of Arrows to Burst Balloons
+
+--------
+## String/Stack/Recursion
+### Calculator
+- 224. Basic Calculator [H]
+- 227. Basic Calculator II [M]
+- 772. Basic Calculator III [H]
+- [ ] 770. Basic Calculator IV [H]
+
+### Palindrome
+- 5. Longest Palindromic Substring
+- 9. Palindrome Number
+- 125. Valid Palindrome
+- 680. Valid Palindrome II
+- [ ] 131. Palindrome Partitioning  
+- [ ] 132. Palindrome Partitioning I 
+- [ ] 214. Shortest Palindrome    
+- 234. Palindrome Linked List    
+- 266. Palindrome Permutation
+- [ ] 267. Palindrome Permutation II  
+- [ ] 336. Palindrome Pairs    
+- [ ] 409. Longest Palindrome    
+- 479. Largest Palindrome Product    
+- [ ] 564. Find the Closest Palindrome    
+
+### Serialize and Deserialize
+- 271. Encode and Decode Strings [M]
+- 297. Serialize and Deserialize Binary Tree [H]
+- 449. Serialize and Deserialize BST [M]
+- 536. Construct Binary Tree from String [M]
+- 606. Construct String from Binary Tree [E]
+
+--------
+## Tree
+### Serialize and Deserialize
+- 297. Serialize and Deserialize Binary Tree [H]
+- 449. Serialize and Deserialize BST [M]
+- 536. Construct Binary Tree from String [M]
+- 606. Construct String from Binary Tree [E]
+
+--------
+## Trie
+- 208. Implement Trie (Prefix Tree) [M]
+- 211. Add and Search Word - Data structure design [M]
+- 212. Word Search II [H]
+- 745. Prefix and Suffix Search [M]
 

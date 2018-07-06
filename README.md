@@ -1,7 +1,7 @@
 LeetCode Solutions - Implemented in ![Language](https://img.shields.io/badge/language-CPP-blue.svg)
 
 # Current Updating
-
+If you think this repo is useful, please ***watch***, ***star*** or ***fork*** it!
 
 ## About LeetCode
 
