@@ -1,19 +1,19 @@
 # Sorting Algorithms
 
 <!-- GFM-TOC -->
-* [`comparator` in C++](#`comparator` in C++)
-* [Bubble Sort](#Bubble Sort)
-* [Selection Sort](#Selection Sort)
-* [Insertion Sort](#Insertion Sort)
-* [Shell Sort](#Shell Sort)
-* [Merge Sort](#Merge Sort)
-* [Quick Sort](#Quick Sort)
-* [Heap Sort](#Heap Sort)
+- [Comparator Definition](#comparator-definition)
+- [Bubble Sort](#bubble-sort)
+- [Selection Sort](#selection-sort)
+- [Insertion Sort](#insertion-sort)
+- [Shell Sort](#shell-sort)
+- [Merge Sort](#merge-sort)
+- [Quick Sort](#quick-sort)
+- [Heap Sort](#heap-sort)
 <!-- GFM-TOC -->
 
 
 
-## `comparator` in C++
+## Comparator Definition
 Define **comparator** for **struct Interval**: 
 
 ```
@@ -64,8 +64,8 @@ sort(intervals.begin(), intervals.end(), **[](Interval &a, Interval &b) {return 
 - [CPP Script](src/shell_sort.cpp)
 
 
-## Merge Sort (Bottom-up)
-- Main idea: 
+## Merge Sort 
+- Main idea (Bottom-up): 
 	- first split the array into ordered part (minimum case is only one element)
 	- then merge two sorted array into the final sorted array
 Steps:
@@ -77,8 +77,8 @@ Steps:
 - [CPP Script](src/merge_sort.cpp)
 
 
-## Quick Sort (Divide-and-Conquer Method)
-- Main idea:
+## Quick Sort 
+- Main idea (Divide-and-Conquer Method):
 	- Shuffle the array.
 	- Partition(切分) so that, for some j
 		- entry a[j] is in place
